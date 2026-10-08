@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AutoMarket Seminuevos</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <div class="logo">🚗 AutoMarket</div>
+        <nav>
+            <a href="#inicio">Inicio</a>
+            <a href="#login">Acceso</a>
+        </nav>
+    </header>
+
+    <section id="inicio" class="hero">
+        <h1>Autos Seminuevos Garantizados</h1>
+        <p>Inicia sesión para explorar nuestro catálogo exclusivo de vehículos.</p>
+    </section>
+
+    <section id="login" class="login-section">
+        <div class="login-box">
+            <h2>Iniciar Sesión</h2>
+            <form id="loginForm">
+                <input type="text" id="usuario" placeholder="Usuario" required>
+                <input type="password" id="contrasena" placeholder="Contraseña" required>
+                <button type="submit" class="btn">Entrar</button>
+                <p id="loginMensaje"></p>
+            </form>
+        </div>
+    </section>
+
+    <main id="catalogo-section" style="display: none;">
+        <h2>Nuestros Modelos</h2>
+        
+        <div class="grid">
+            <!-- Auto 1 -->
+            <div class="card">
+              
+                <img src="VENTA AUTOS/img/auto1.jpg" alt="Nissan March Seminuevo" class="car-img">
+                <div class="card-content">
+                    <h3>March 2017</h3>
+                    <p class="price">$160,000 MXN</p>
+                    <a href="#contacto" class="btn-detalles">Comprar</a>
+                </div>
+            </div>
+
+            <!-- Auto 2 -->
+            <div class="card">
+                <img src="VENTA AUTOS/img/auto2.jpg" alt="Nissan Versa Seminuevo" class="car-img">
+                <div class="card-content">
+                    <h3>Versa 2014</h3>
+                    <p class="price">$165,000 MXN</p>
+                    <a href="#contacto" class="btn-detalles">Comprar</a>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer id="contacto">
+        <p>&copy; 2026 AutoMarket. Contáctanos: ventas@automarket.com</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
